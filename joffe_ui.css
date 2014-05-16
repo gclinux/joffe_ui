@@ -1,0 +1,24 @@
+﻿
+	.joffe_ui * {padding:0; margin:0;}
+	.joffe_ui {color:#ccc; font:12px/1.25 tahoma,arial,"微软雅黑","宋体",sans-serif;}
+	.joffe_ui a {color:#000; text-decoration:none}
+	.joffe_ui a:hover {text-decoration:underline}
+/* kaishi */
+	.joffe_ui {position:absolute; z-index:999999; width:100%; top:0; left:0; display:none; }
+	.joffe_ui .joffe_container {position:absolute; width:100%; height:100%; z-index:99;}
+	.joffe_ui .joffe_container .joffe_box { min-width:400px; *width:460px; background:#fff; padding: 15px 20px;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; position:fixed; -moz-box-shadow:1px 6px 36px rgba(0, 0, 0, 0.5); -webkit-shadow:1px 6px 36px rgba(0, 0, 0, 0.5); box-shadow: 1px 6px 36px rgba(0, 0, 0, 0.5);_position:absolute;}
+	.joffe_ui .joffe_container .joffe_box .joffe_header {height:28px; width:100%; border-radius:3px 3px 0 0; padding-bottom: 15px;
+border-bottom: 1px solid #DDD;}
+	.joffe_ui .joffe_container .joffe_box .joffe_header h3 {display:inline; line-height:28px; color:#909; font-size:12px; margin-left:10px; float:left;}
+	.joffe_ui .joffe_container .joffe_box .joffe_header a.close {background: url("images/joffe_ui/pimg.png") no-repeat scroll -28px 2px transparent; cursor:pointer; text-indent:-9999em; width:15px; height:15px; float:right; margin:6px 6px 0 0;}
+	.joffe_ui .joffe_container .joffe_box .joffe_header a.close:hover {background-position:-48px 2px;}
+	.joffe_ui .joffe_container .joffe_box .msg {min-height:80px; clear:both; padding:10px;color:#909;}
+	.joffe_ui .joffe_container .joffe_box .msg .logo {background: url("images/joffe_ui/plogo.png") no-repeat scroll 0 0 transparent; float: left; height: 80px; margin: 0 10px 10px 0; width: 80px;}
+	.joffe_ui .joffe_container .joffe_box .joffe_footer {clear:both; height: 31px; width:100%; padding: 10px 0 15px 0; text-align: center;}
+	.joffe_ui .joffe_container .joffe_box .joffe_footer a {width:90px; height:31px; line-height:31px; display:block; background: url("images/joffe_ui/pimg.png") no-repeat scroll 0 -70px transparent; margin:0 auto; text-decoration:none;}
+	.joffe_ui .joffe_container .joffe_box .joffe_footer a:hover {background-position:0 -105px;}
+	.joffe_ui .shade {width:100%; height:100%; position:relative; z-index:9; background:#CCC;filter:alpha(Opacity=20);-moz-opacity:0.2;opacity: 0.2;;}
+	.joffe_ui .joffe_box .msg #_joffe_iu_open_iframe{ min-width:380px; border:none; padding:0px; margin:0px; clear:both; }
+	.joffe_ui .joffe_box .resizeBt{boder:none;padding:0px;margin:0px; width:8px;height:30px; color:#666; width:100%;  text-align: center; cursor: n-resize;}
+	#confirm .joffe_footer a {display:inline-block; margin:0 5px;}
+	
